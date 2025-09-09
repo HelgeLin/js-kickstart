@@ -10,4 +10,10 @@ const prompt = require('prompt-sync')();
 // TODO: Inside the loop, add the current number to the sum
 // TODO: Display the final result
 
-console.log("Replace this with your solution!");
+const n = Number(prompt("Enter a number:"));
+
+let sum=0
+
+for (let i=1; i<=n; i++){
+    sum += i}
+console.log("Summan av nummrerna frpn 1 till " + n + " är " + sum)

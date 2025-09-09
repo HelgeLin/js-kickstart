@@ -14,11 +14,11 @@ const secondNumber = Number(prompt("Enter second number: "));
 
 if (firstNumber > secondNumber) {
     // TODO: Print that first number is greater than second number
-    console.log("Replace this with the correct message");
+    console.log("The first number is greater than the second number");
 } else if (firstNumber < secondNumber) {
     // TODO: Print that first number is less than second number
-    console.log("Replace this with the correct message");
+    console.log("The first number is less than the second number");
 } else {
     // TODO: Print that the numbers are equal
-    console.log("Replace this with the correct message");
+    console.log("The numbers are equal");
 }

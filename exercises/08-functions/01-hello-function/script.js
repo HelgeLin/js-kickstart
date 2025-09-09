@@ -8,4 +8,10 @@
 // TODO: Test your function by calling it with different names
 // Example: console.log(greetPerson("Alice"));
 
-console.log("Replace this with your solution!");
+function greetPerson(name){
+    return "Hello " + name + " klicka på jordgubben om du vill se mer";
+
+}
+console.log(greetPerson("Oliver"))
+console.log(greetPerson("Gb"))
+console.log(greetPerson("Arvid"))

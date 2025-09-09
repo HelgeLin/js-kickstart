@@ -8,4 +8,14 @@ const prompt = require('prompt-sync')();
 // TODO: Use selection statements to determine which number is largest
 // TODO: Display the maximum number
 
-console.log("Replace this with your solution!");
+console.log("Eneter numbers to find the maximum of the three.");
+const firstNumber = Number(prompt("Enter first number: "));
+const secondNumber = Number(prompt("Enter second number: "));
+const thirdNumber = Number(prompt("Enter third number: "));
+
+if (firstNumber >= secondNumber && thirdNumber){
+    console.log("The maximum number is: " + firstNumber);}
+else if (secondNumber >= firstNumber && secondNumber >= thirdNumber){
+    console.log("The maximum number is: " + secondNumber);}
+else{
+    console.log("The maximum number is: " + thirdNumber);}

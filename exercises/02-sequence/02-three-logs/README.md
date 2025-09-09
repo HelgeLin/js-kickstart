@@ -12,12 +12,13 @@ Understand that programs can display multiple messages in sequence and that **or
 1. **Imagine a program that makes a sandwich.**  
    Write three messages it could display to show progress:
 
-   Message 1: ___________________  
-   Message 2: ___________________  
-   Message 3: ___________________  
+   Message 1: Släng på köttet på stekpannan
+   Message 2: Låt köttet steka
+   Message 3: Ta av köttet från stekpanna
 
 2. **Does the order matter? Why?**  
    - What happens if the program displays the steps in the wrong order?
+   Saker händer i fel ordning
 
 3. **Predict the output:**  
    If a program displays these three messages:
@@ -28,6 +29,8 @@ Understand that programs can display multiple messages in sequence and that **or
 
    - What do you think this program does?  
    - What would the user see on the screen?
+   Jag skulle tro den räknar ut matte.
+   Resultat
 
 4. **Design your own three-message program.**  
    Choose a topic (cooking, sports, music, etc.).  

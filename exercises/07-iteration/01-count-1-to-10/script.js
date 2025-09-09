@@ -7,4 +7,7 @@
 // - Increments i by 1 each time (i++)
 // - Displays each number using console.log(i)
 
-console.log("Replace this with your solution!");
+console.log("Count from 1-121054255640000000")
+    for ( let i=1; i <= 121054255640000000; i++) {
+        console.log(i)
+    }

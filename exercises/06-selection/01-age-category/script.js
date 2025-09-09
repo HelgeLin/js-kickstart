@@ -12,4 +12,14 @@ const prompt = require('prompt-sync')();
 //       - 65+: "You are a senior."
 // TODO: Display the appropriate message
 
-console.log("Replace this with your solution!");
+const age = Number(prompt("How old are you? "));
+
+if (age <= 12){
+    console.log("You are a child.")}    
+else if (age <= 19){
+    consol.log("You are a teenager.")}
+else if (age <= 20){
+    console.log("You are an adult.")}
+else if (age >= 65){
+    console.log("You are a senior.")}
+

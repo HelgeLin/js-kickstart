@@ -7,4 +7,7 @@ const prompt = require('prompt-sync')();
 const name = prompt("What is your name? ");
 
 // TODO: Create and display a personalized greeting
-console.log("Hello, " + name + "! Replace this with your own greeting message!");
+if (name == "Oliver"){
+    console.log("Fuck you oliver >:(");}
+else{
+    console.log("Hello, " + name + "! What rank are you in Overwatch!");}
