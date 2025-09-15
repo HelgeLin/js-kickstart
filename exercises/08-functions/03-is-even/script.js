@@ -10,4 +10,12 @@
 // Example: console.log(isEven(4));  // Should output: true
 // Example: console.log(isEven(7));  // Should output: false
 
-console.log("Replace this with your solution!");
+function IsEven(number){
+    return number % 2 === 0;
+}
+
+console.log(IsEven(4));
+console.log(IsEven(7));
+console.log(IsEven(0));
+console.log(IsEven(-2));
+console.log(IsEven(-3));

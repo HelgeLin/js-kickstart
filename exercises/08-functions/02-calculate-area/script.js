@@ -8,4 +8,10 @@
 // TODO: Test your function by calling it with different values
 // Example: console.log(calculateArea(5, 3));
 
-console.log("Replace this with your solution!");
+function calculateArea(width, height){
+    return width * height;
+}
+
+console.log(calculateArea(5, 3));
+console.log(calculateArea(10, 7));
+console.log(calculateArea(2.5, 4))
